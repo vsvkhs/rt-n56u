@@ -8,8 +8,8 @@ on:
     inputs:
       debug_enabled:
         description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'     
-        required: false
-        default: 'no'
+        required: true
+        default: 'yes'
   release:
     types: [published]
 
